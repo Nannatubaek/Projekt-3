@@ -39,5 +39,10 @@ body{
   font-family: "monserrat",sans-serif;
 }
 .contact-section{
-  background: url(bg.png) no-repeat center; 
+  background: linear-gradient(to left, #2E2B2B, grey);
+  background-size: cover;
+  padding: 40px 0;
+}
+.contact-section h1{
+  text-align: center;
 }
