@@ -39,9 +39,14 @@ body{
   font-family: "monserrat",arial;
 }
 .contact-section{
-  background: linear-gradient(to left, #2E2B2B, grey);
+
+  background: linear-gradient(to left, #2E2B2B, grey) center;
   background-size: cover;
-  padding: 40px 0;
+  padding: 100px 0;
+}
+.contact-wrapper{
+  margin-left: 400px;
+
 }
 .contact-section h1{
   text-align: center;
@@ -52,6 +57,7 @@ body{
   height: 10px;
   background: #2E2B2B;
   margin: 40px auto;
+  margin-left: 250px;
 }
 
 .contact-form{
