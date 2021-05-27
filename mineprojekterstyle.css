@@ -30,7 +30,7 @@ body{
 .animation{
   background: linear-gradient(to left, #2E2B2B, grey);
   width: 100%;
-  height: 100vh;
+  height: 200vh;
 }
 .wrappergrid{
   display: grid;
@@ -38,8 +38,8 @@ body{
   grid-auto-rows: 200px;
 }
 .wrappergrid img{
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 80%;
 
 }
 /*iframe video*/
