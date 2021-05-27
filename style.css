@@ -3,8 +3,10 @@
   padding: 0;
 }
 body{
+  background: linear-gradient(to left, #2E2B2B, grey);
   font-family: arial;
 }
+/*menubar*/
 .banner-text{
   width: 100%;
   position: absolute;
@@ -28,95 +30,18 @@ body{
   float: center;
 }
 .animation{
-  background: linear-gradient(to left, #2E2B2B, grey);
   width: 100%;
   height: 100vh;
 }
-
-*{
-  margin: 0;
-  padding: 0;
-  font-family: "monserrat",arial;
-}
-.contact-section{
-
-  background: linear-gradient(to left, #2E2B2B, grey) center;
-  background-size: cover;
-  padding: 100px 0;
-}
-.contact-wrapper{
-  margin-left: 400px;
-
-}
-.contact-section h1{
-  text-align: center;
-  color: #ddd;
-}
-.border{
-  width: 100px;
-  height: 10px;
-  background: #2E2B2B;
-  margin: 40px auto;
-  margin-left: 250px;
-}
-
-.contact-form{
-  max-width: 600px;
-  margin: auto
-  padding: 0 10px;
-  overflow: hidden;
-}
-
-.contact-form-text{
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  margin: 16px 0;
-  border: 0;
-  background: #111;
-  padding: 20px;
-  outline: none;
-  color: #ddd;
-  transition: 0.5s;
-}
-.contact-form-text:focus{
-  box-shadow: 0 0 10px 4px #34495e;
-}
-textarea.contact-form-text{
-  resize: none;
-  height: 120px;
-}
-.contact-form-btn{
-  float: right;
-  border: 0;
-  background: #34495e;
-  color: #fff;
-  padding: 12px 50px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 0.5s;
-}
-.contact-form-btn:hover{
-  background: #2980b9;
-}
-
+/*logo*/
 .logo{
-  margin-left: -300px;
+  margin-left: -100px;
 }
 
-.wrapper{
-    margin: 0 auto;
-    width: 1000px;
-}
-
-videowrapper{
-
-    position: relative;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    width: 100%;
-    height: 100%;
-
+/*bunden til siden*/
+footer{
+  background: black;
+  height: 50px;
+  width: 100%;
+  color: white;
 }
