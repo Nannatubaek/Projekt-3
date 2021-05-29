@@ -25,9 +25,8 @@ body{
 .banner-text h2{
   text-align: center;
   color: #FFFFFF;
-  font-size: 50px;
-  margin-top: 20%;
-  float: center;
+  font-size: 20px;
+  margin-top: 10%;
 }
 .animation{
   width: 100%;
@@ -35,17 +34,17 @@ body{
 }
 /*logo*/
 .logo{
-  margin-left:100px;
-}
-
-/*bunden til siden*/
-footer{
-  background: black;
-  height: 50px;
-  width: 100%;
-  color: white;
+  margin-left:-100px;
 }
 
 .wrappergrid img{
-  height: 50vh;
-  width: 20%;
+  height: 70vh;
+  width: 25%;
+  margin: 200px;
+}
+.banner-text h1{
+  text-align: right;
+  color: #FFFFFF;
+  font-size: 50px;
+  margin-top: 20%
+}

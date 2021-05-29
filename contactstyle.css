@@ -98,3 +98,12 @@ textarea.contact-form-text{
 .contact-form-btn:hover{
   background: #2980b9;
 }
+
+footer{
+  background: black;
+  height: 50px;
+  width: 100%;
+  color: white;
+  padding-left: 0;
+  margin-left: auto;
+}
