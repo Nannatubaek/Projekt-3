@@ -36,7 +36,8 @@ body{
 .wrappergrid img{
   height: 70vh;
   width: 25%;
-  margin: 180px;
+  margin.left: 200%;
+  padding-left: 300px;
 }
 .banner-text h1{
   text-align: center;
