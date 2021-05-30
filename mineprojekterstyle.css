@@ -3,6 +3,7 @@
   padding: 0;
 }
 body{
+  background: linear-gradient(to left, #2E2B2B, grey);
   font-family: arial;
 }
 .banner-text{
