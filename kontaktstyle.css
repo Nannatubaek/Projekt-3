@@ -39,7 +39,7 @@ body{
 }
 .contact-section{
 
-  background: linear-gradient(to left, #2E2B2B, grey) center;
+  background: #2B3B43;
   background-size: cover;
   padding: 100px 0;
 }
@@ -54,7 +54,7 @@ body{
 .border{
   width: 100px;
   height: 10px;
-  background: #2E2B2B;
+  background: #2B3B43;
   margin: 40px auto;
   margin-left: 250px;
 }
@@ -88,7 +88,7 @@ textarea.contact-form-text{
 .contact-form-btn{
   float: right;
   border: 0;
-  background: #34495e;
+  background: #2B3B43;
   color: #fff;
   padding: 12px 50px;
   border-radius: 20px;
@@ -96,7 +96,7 @@ textarea.contact-form-text{
   transition: 0.5s;
 }
 .contact-form-btn:hover{
-  background: #2980b9;
+  background: #2B3B43;
 }
 
 footer{
