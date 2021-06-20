@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background: #18262E;
+  background: #32454B;
   font-family: arial;
 }
 /*menubar*/
@@ -37,13 +37,13 @@ img{
 }
 .text-area h1{
   text-align: center;
-  color: #FFFFFF;
+  color: #99BFCB;
   font-size: 50px;
   margin-top: 0%;
 }
 .text-area p{
   text-align: center;
-  color: #FFFFFF;
+  color: #99BFCB;
   font-size: 20px;
   margin-top: 0%;
 }
