@@ -47,9 +47,21 @@ body{
   margin-top: 10%
 }
 
-.text-area{
+.text-area h2{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-top: 10%;
+}
+.text-area h1{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 40px;
+  margin-top: 10%;
+}
+.text-area p{
   text-align: center;
   color: #FFFFFF;
   font-size: 20px;
-  margin-top: 50%;
+  margin-top: 10%;
 }
