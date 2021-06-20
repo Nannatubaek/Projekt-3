@@ -39,10 +39,11 @@ body{
   height: 20vh;
   width: 20%;
   margin-top: 3%;
+
 }
 .banner-text p{
   text-align: center;
-  color: #FFFFFF;
+  color: #99BFCB;
   font-size: 20px;
   margin-top: 10%;
 }
@@ -63,14 +64,14 @@ body{
 }
 .text-area p{
   text-align: center;
-  color: #FFFFFF;
+  color: #99BFCB;
   font-size: 20px;
   margin-top: 10%;
   margin-left: 55%;
 }
 .text-area2 p{
   text-align: center;
-  color: #FFFFFF;
+  color: #99BFCB;
   font-size: 20px;
   margin-top: -20%;
   margin-left: 50%;
