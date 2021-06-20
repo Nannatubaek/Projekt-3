@@ -39,6 +39,7 @@ body{
   height: 20vh;
   width: 20%;
   margin-top: 3%;
+  margin-left: auto;
 }
 .banner-text p{
   text-align: center;

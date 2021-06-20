@@ -39,13 +39,14 @@ img{
   text-align: center;
   color: #99BFCB;
   font-size: 50px;
-  margin-top: 0%;
+  margin-top: -10%;
 }
 .text-area p{
   text-align: center;
   color: #99BFCB;
   font-size: 20px;
-  margin-top: 0%;
+  margin-bottom: 20%
+
 }
 .footer{
         color: white;

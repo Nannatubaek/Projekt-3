@@ -33,7 +33,7 @@ body{
   text-align: center;
   color: #99BFCB;
   font-size: 80px;
-  margin-top: 2%;
+  margin-top: -10%;
   float: center;
 }
 .animation{
@@ -46,4 +46,11 @@ img{
   height: 20vh;
   width: 20%;
   margin-top: 3%;
+}
+/*iframe video*/
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+    padding-left: 100px;
+    margin-left: 50%;
 }
