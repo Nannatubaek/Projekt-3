@@ -3,8 +3,10 @@
   padding: 0;
 }
 body{
+  background: #18262E;
   font-family: arial;
 }
+/*menubar*/
 .banner-text{
   width: 100%;
   position: absolute;
@@ -13,6 +15,7 @@ body{
   height: 50px;
   float: right;
 }
+
 .banner-text ul li{
   display: inline-block;
   padding: 40px 15px;
@@ -20,20 +23,27 @@ body{
   color: #FFFFFF;
   font-size: 20px;
 }
-.banner-text h2{
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 50px;
-  margin-top: 20%;
-  float: center;
-}
+
 .animation{
-  background: black;
   width: 100%;
   height: 100vh;
 }
-*{
-  margin: 0;
-  padding: 0;
-  font-family: "monserrat",arial;
+
+img{
+  height: 20vh;
+  width: 20%;
+  margin-top: 3%;
+  margin-left: auto;
+}
+.text-area h1{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 50px;
+  margin-top: 0%;
+}
+.text-area p{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-top: 0%;
 }
