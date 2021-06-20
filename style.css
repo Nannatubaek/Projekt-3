@@ -31,7 +31,7 @@ body{
 
 .banner-text h1{
   text-align: center;
-  color: #FFFFFF;
+  color: #99BFCB;
   font-size: 50px;
   margin-top: -5%
 }
@@ -87,6 +87,15 @@ body{
   margin-top: 40px;
 }
 
+.portraet3{
+  width: 400px;
+  height: 30%;
+  margin-bottom: 40%;
+  margin-top: 10%;
+  padding-right: 100%;
+  position: absolute;
+  margin-right: -20%;
+}
 .text-area3{
   text-align: center;
   color: white;
