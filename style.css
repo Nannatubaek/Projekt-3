@@ -29,14 +29,22 @@ body{
   height: 200vh;
 }
 
+
+
+
+
+
+
+
+
 .banner-text h1{
   text-align: center;
   color: #99BFCB;
   font-size: 50px;
-  margin-top: -5%
+  margin-top: -5%;
 }
 .logo{
-  height: 20vh;
+  height: 20%;
   width: 20%;
   margin-top: 3%;
 
@@ -47,20 +55,19 @@ body{
   font-size: 20px;
   margin-top: 10%;
 }
-
-.text-area h2{
-  text-align: center;
-  color: #99BFCB;
-  font-size: 40px;
-  margin-top: 35%;
-  margin-right: 50%;
-}
 .text-area h1{
   text-align: center;
   color: #99BFCB;
   font-size: 40px;
   margin-top: -72%;
   margin-left: 50%;
+}
+.text-area h2{
+  text-align: center;
+  color: #99BFCB;
+  font-size: 40px;
+  margin-top: 35%;
+  margin-right: 50%;
 }
 .text-area p{
   text-align: center;
@@ -87,15 +94,11 @@ body{
   margin-left: 100px;
   margin-top: 40px;
 }
-
 .portraet3{
-  width: 400px;
-  height: 30%;
-  margin-bottom: 40%;
-  margin-top: 15%;
-  padding-right: 100%;
-  position: absolute;
-  margin-right: -20%;
+  position: cover;
+  height: 250px;
+  width: 1450px;
+  padding-top: 10px;
 }
 .text-area3{
   text-align: center;
