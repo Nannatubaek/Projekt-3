@@ -94,3 +94,30 @@ img{
       .fa:hover {
         opacity: 0.5;
       }
+
+      .sociale-medier a{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #CB9771;
+        margin: 20px 10px;
+        border-radius: 50%;
+        text-decoration: none;
+      }
+
+      .sociale-medier{
+        display: flex;
+      }
+
+      .sociale-medier i{
+        color: #1C1A1D;
+      }
+
+      .sociale-medier a:hover{
+        background-color: #A57048;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+        transition: all ease 0.5s;
+        transform: scale(1.3);
+      }
