@@ -108,6 +108,7 @@ body{
 
       .sociale-medier{
         display: flex;
+        margin-left: 43%;
       }
 
       .sociale-medier i{
