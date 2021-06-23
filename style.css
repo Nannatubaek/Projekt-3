@@ -44,7 +44,7 @@ body{
   margin-top: -5%;
 }
 .logo{
-  height: 20%;
+  height: 20vh;
   width: 20%;
   margin-top: 3%;
 
@@ -66,7 +66,7 @@ body{
   text-align: center;
   color: #99BFCB;
   font-size: 40px;
-  margin-top: 35%;
+  margin-top: 5%;
   margin-right: 50%;
 }
 .text-area p{
@@ -96,9 +96,10 @@ body{
 }
 .portraet3{
   position: cover;
-  height: 250px;
-  width: 1450px;
+  height: 200px;
+  width: 100%;
   padding-top: 10px;
+  margin-top: 10%;
 }
 .text-area3{
   text-align: center;
