@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background: #18262E;
+  background: #32454B;
   font-family: arial;
 }
 /*menubar*/
@@ -26,24 +26,98 @@ body{
 
 .animation{
   width: 100%;
-  height: 100vh;
+  height: 50vh;
 }
 
-img{
+.logo{
   height: 20vh;
   width: 20%;
   margin-top: 3%;
-  margin-left: auto;
 }
 .text-area h1{
   text-align: center;
-  color: #FFFFFF;
+  color: #99BFCB;
   font-size: 50px;
-  margin-top: 0%;
+  margin-top: -10%;
 }
 .text-area p{
   text-align: center;
-  color: #FFFFFF;
+  color: #99BFCB;
   font-size: 20px;
-  margin-top: 0%;
+  margin-bottom: 20%
+
 }
+.footer{
+        color: white;
+        font-family: Europa-regular;
+        font-size: 15px;
+        background-color: black;
+        height: 60px;
+        width: 100%;
+        padding: 3px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 150px;
+     }
+
+
+    .footer div{
+        display:inline-flex;
+        padding: 0 25px;
+
+    }
+
+    .fsa {
+        text-align: center;
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+        border-radius: 75%;
+        }
+
+        .fa {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin:0 auto;
+            text-align: center;
+            font-size: 25px;
+            width: 40px;
+            height: 40px;
+            text-decoration: none;
+            border-radius: 75%;
+            }
+
+      .fa:hover {
+        opacity: 0.5;
+      }
+
+      .sociale-medier a{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #CB9771;
+        margin: 20px 10px;
+        border-radius: 50%;
+        text-decoration: none;
+      }
+
+      .sociale-medier{
+        display: flex;
+        margin-left: 43%;
+      }
+
+      .sociale-medier i{
+        color: #1C1A1D;
+      }
+
+      .sociale-medier a:hover{
+        background-color: #A57048;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+        transition: all ease 0.5s;
+        transform: scale(1.3);
+      }

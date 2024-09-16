@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background: #18262E;
+  background: #32454B;
   font-family: arial;
 }
 /*menubar*/
@@ -29,27 +29,285 @@ body{
   height: 200vh;
 }
 
+
+
+
+
+
+
+
+
 .banner-text h1{
   text-align: center;
-  color: #FFFFFF;
+  color: #99BFCB;
   font-size: 50px;
-  margin-top: 1%
+  margin-top: -5%;
 }
-img{
+.logo{
   height: 20vh;
   width: 20%;
   margin-top: 3%;
+
 }
 .banner-text p{
   text-align: center;
-  color: #FFFFFF;
+  color: #99BFCB;
   font-size: 20px;
-  margin-top: 10%
+  margin-top: 10%;
 }
-
-.text-area{
+.text-area h1{
   text-align: center;
-  color: #FFFFFF;
-  font-size: 20px;
-  margin-top: 50%;
+  color: #99BFCB;
+  font-size: 40px;
+  margin-top: -72%;
+  margin-left: 50%;
 }
+.text-area h2{
+  text-align: center;
+  color: #99BFCB;
+  font-size: 40px;
+  margin-top: 1%;
+  margin-right: 50%;
+}
+.text-area p{
+  text-align: center;
+  color: #99BFCB;
+  font-size: 20px;
+  margin-top: 10%;
+  margin-left: 55%;
+}
+.text-area2 p{
+  text-align: center;
+  color: #99BFCB;
+  font-size: 20px;
+  margin-top: -20%;
+  margin-left: 50%;
+}
+.portraet1{
+  margin-right: 400px;
+  margin-left: 100px;
+  margin-top: 50px;
+
+}
+.portraet2{
+  margin-right: 400px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.portraet3{
+  position: cover;
+  height: 200px;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 10%;
+}
+.text-area3{
+  text-align: center;
+  color: #99BFCB;
+  margin-top: 1%;
+  font-size: 20px;
+}
+.footer{
+        color: white;
+        font-family: Europa-regular;
+        font-size: 15px;
+        background-color: black;
+        height: 60px;
+        width: 100%;
+        padding: 3px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 150px;
+     }
+
+
+    .footer div{
+        display:inline-flex;
+        padding: 0 25px;
+
+    }
+
+    .fsa {
+        text-align: center;
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+        border-radius: 75%;
+        }
+
+        .fa {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin:0 auto;
+            text-align: center;
+            font-size: 25px;
+            width: 40px;
+            height: 40px;
+            text-decoration: none;
+            border-radius: 75%;
+            }
+
+      .fa:hover {
+        opacity: 0.5;
+      }
+
+      @media screen and(max-width: 968px){
+        {
+          margin: 0;
+          padding: 0;
+        }
+        body{
+          background: #32454B;
+          font-family: arial;
+        }
+        /*menubar*/
+        .banner-text{
+          width: 100%;
+          position: absolute;
+        }
+        .banner-text ul{
+          height: 50px;
+          float: right;
+        }
+
+        .banner-text ul li{
+          display: inline-block;
+          padding: 40px 15px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          font-size: 20px;
+        }
+
+        .animation{
+          width: 100%;
+          height: 200vh;
+        }
+
+
+
+
+
+
+
+
+
+        .banner-text h1{
+          text-align: center;
+          color: #99BFCB;
+          font-size: 50px;
+          margin-top: -5%;
+        }
+        .logo{
+          height: 20vh;
+          width: 20%;
+          margin-top: 3%;
+
+        }
+        .banner-text p{
+          text-align: center;
+          color: #99BFCB;
+          font-size: 20px;
+          margin-top: 10%;
+        }
+        .text-area h1{
+          text-align: center;
+          color: #99BFCB;
+          font-size: 40px;
+          margin-top: -72%;
+          margin-left: 50%;
+        }
+        .text-area h2{
+          text-align: center;
+          color: #99BFCB;
+          font-size: 40px;
+          margin-top: 1%;
+          margin-right: 50%;
+        }
+        .text-area p{
+          text-align: center;
+          color: #99BFCB;
+          font-size: 20px;
+          margin-top: 10%;
+          margin-left: 55%;
+        }
+        .text-area2 p{
+          text-align: center;
+          color: #99BFCB;
+          font-size: 20px;
+          margin-top: -20%;
+          margin-left: 50%;
+        }
+        .portraet1{
+          margin-right: 400px;
+          margin-left: 100px;
+          margin-top: 50px;
+
+        }
+        .portraet2{
+          margin-right: 400px;
+          margin-left: 100px;
+          margin-top: 40px;
+        }
+        .portraet3{
+          position: cover;
+          height: 200px;
+          width: 100%;
+          padding-top: 10px;
+          margin-top: 10%;
+        }
+        .text-area3{
+          text-align: center;
+          color: #99BFCB;
+          margin-top: 1%;
+          font-size: 20px;
+        }
+        .footer{
+                color: white;
+                font-family: Europa-regular;
+                font-size: 15px;
+                background-color: black;
+                height: 60px;
+                width: 100%;
+                padding: 3px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 150px;
+             }
+
+
+            .footer div{
+                display:inline-flex;
+                padding: 0 25px;
+
+            }
+
+            .fsa {
+                text-align: center;
+                font-size: 25px;
+                width: 40px;
+                height: 40px;
+                text-decoration: none;
+                border-radius: 75%;
+                }
+
+                .fa {
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin:0 auto;
+                    text-align: center;
+                    font-size: 25px;
+                    width: 40px;
+                    height: 40px;
+                    text-decoration: none;
+                    border-radius: 75%;
+                    }
+
+              .fa:hover {
+                opacity: 0.5;
+              }
+      }
